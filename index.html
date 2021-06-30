@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./assets/Favico_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./assets/Favico_32x32.png" sizes="32x32">
+    <title>CalculadoraJS</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Calculadora con JS</h1>
+    </header>
+
+    <main class="container">
+        <section class="calc">
+            <div class="calc__panel">
+                <p class="calc__panel-show"></p>
+                <p class="calc__panel-result"></p>
+            </div>
+            
+            <div class="calc__btn-group">
+                <button class="calc__top-btn calc__write-btn">.</button>
+                <button class="calc__top-btn calc__write-btn">(</button>
+                <button class="calc__top-btn calc__write-btn">)</button>
+                <button class="calc__top-btn calc__delete-btn"><--</button>
+                <button class="calc__top-btn calc__save-btn">SAVE</button>
+                <button class="calc__numb-btn calc__write-btn">1</button>
+                <button class="calc__numb-btn calc__write-btn">2</button>
+                <button class="calc__numb-btn calc__write-btn">3</button>
+                <button class="calc__oper-btn calc__write-btn">+</button>
+                <button class="calc__oper-btn calc__write-btn">-</button>
+                <button class="calc__numb-btn calc__write-btn">4</button>
+                <button class="calc__numb-btn calc__write-btn">5</button>
+                <button class="calc__numb-btn calc__write-btn">6</button>
+                <button class="calc__oper-btn calc__write-btn">*</button>
+                <button class="calc__oper-btn calc__write-btn">/</button>
+                <button class="calc__numb-btn calc__write-btn">7</button>
+                <button class="calc__numb-btn calc__write-btn">8</button>
+                <button class="calc__numb-btn calc__write-btn">9</button>
+                <button class="calc__numb-btn calc__write-btn">0</button>
+                <button class="calc__equal-btn calc__result-btn">=</button>
+            </div>
+        </section>
+
+        <section class="history none"></section>
+    </main>
+
+    <footer>
+        <div></div>
+    </footer>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
